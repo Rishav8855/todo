@@ -1,0 +1,68 @@
+/* styles.css */
+
+/* TodoApp */
+.todo-app {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* TodoList */
+  .todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* TodoItem */
+  .todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .todo-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo-item .completed {
+    text-decoration: line-through;
+  }
+  
+  .todo-item .delete-button {
+    background-color: #ff4f4f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* TodoForm */
+  .todo-form {
+    margin-top: 20px;
+  }
+  
+  .todo-input {
+    width: calc(100% - 80px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .add-button {
+    width: 80px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #0056b3;
+  }
+  
